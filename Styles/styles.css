@@ -184,3 +184,22 @@ nav a{
 .first:hover {
     box-shadow: 0 0 40px 40px #ffffff inset;
 }
+.wrapper {
+    min-height: calc(100vh - 70px);
+}
+footer {
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    text-align: center;
+    background-color: darkblue;
+    margin-top: 1em;
+}
+
+footer p {
+    color: white;
+
+}
